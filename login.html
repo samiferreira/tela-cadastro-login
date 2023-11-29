@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <script defer src="index.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="page">
+      <form id='primeiro-form' action="">
+        <h1>Login</h1>
+        <p>preencha seus dados para fazer o login</p>
+          <label for="Email">E-mail</label>
+          <input type="email" id="email" placeholder="Digite seu email" required="true"/>
+          <label for="senha">Senha</label>
+          <input type="password" id="senha" placeholder="Digite sua senha" required="true"/>
+        <button type="submit" id="botao1">Acessar</button>
+        <a id="recuperar-a" href="http://127.0.0.1:5500/tela%20de%20login/recuperar.html">esqueci minha senha</a>
+      </form>
+      <form class="recuperar" action="" style="display:none">
+        <input type="text" placeholder="Digite seu e-mail">
+        <label for="">digite seu email para recuperar a senha</label>
+        <button type="submit" id="botaoEnviar">Enviar</button>
+      </form>
+    </div>
+  </body>
+</html>

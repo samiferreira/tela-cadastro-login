@@ -1,0 +1,91 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color:#0559ae;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.page {
+  text-align: center; /* Alinhar o conteúdo do centro */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 30px;
+  background-color: white;
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+  gap: 5px;
+  border-radius: 10px;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+  font-size: 2.3em;
+}
+
+form p {
+  font-size: 15px;
+  color: #666;
+ 
+}
+
+input {
+  width: 300px; /* Reduzindo a largura do input para evitar que fique muito largo */
+  padding: 15px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: all linear 160ms;
+  line-height: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #000099;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #000066;
+}
+
+label.recuperar{
+display: inline;
+border: 3px solid rgb(98, 98, 240)
+
+}
+
+form.recuperar{
+  width: 324px;
+  margin: auto; /* Centraliza horizontalmente */
+  padding: 80px;
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+
+#botaoEnviar{
+margin-top: 20px;
+align-items: center;
+border-radius: 10px;
+}
+
+#cadastro{
+  padding: 10%;
+  padding-top: 30px;
+  padding-left: 20px;
+  margin-top: 40px;
+}
